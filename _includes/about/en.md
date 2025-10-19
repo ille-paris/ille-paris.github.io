@@ -22,3 +22,7 @@ You can follow us on social media and RSVP to upcoming events via Mobilizon. We 
 - Himadri Chhaya-Shailesh · Founding Member & Organizer
 - Mohini Simaria · General Secretary
 - Albin James · Head of the Executive Council
+- Aysis Koshi · Member of the Executive Council
+- Samruddhi Shembekar · Member of the Executive Council
+- Suman Sharma · Member of the Executive Council
+- Swati Modi · Member of the Executive Council
