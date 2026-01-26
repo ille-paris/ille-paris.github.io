@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Goodbye from છાશ"
+title:      "Notice: Goodbye from છાશ"
 subtitle:   "A step towards inclusivity for ALL Indian languages"
 author: "Himadri CS"
 catalog: true

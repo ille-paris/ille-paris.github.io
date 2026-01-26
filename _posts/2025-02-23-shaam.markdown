@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "शाम"
+title:      "Spotlight: शाम"
 subtitle:   "सत्य को पूर्ण रूप से नहीं जाना सकता पर उसे विश्वास है कि उसकी हर कोशिश उसको बौद्धिक विकास की और करीब ले जाती है।"
 author: "Mohit Chaudhari"
 catalog: true
