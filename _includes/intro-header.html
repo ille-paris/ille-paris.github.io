@@ -10,7 +10,7 @@
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
         background: {{ page.header-bg-css }};
         background-size: cover;  /* Ensures the image covers the header */
-        background-position: center bottom; /* Moves image to the top */
+        background-position: center {% if page.header-position %}{{ page.header-position }}{% else %}bottom{% endif %}; /* Adjust visible crop; override per post with `header-position` */
     }
 
     {% if page.header-mask %}
@@ -54,6 +54,54 @@
         </div>
     </div>
 </header>
+{% if page.header-style != 'text' %}
+{% comment %}
+        Advanced vertical crop: set `header-crop-start` in front matter to a value like
+        '20%' or '120px' (relative to the original image height). This will shift the
+        background so the visible area starts at that offset from the image top.
+        Notes: CSS can't use real-world units like cm reliably across devices, so use % or px.
+{% endcomment %}
+<script>
+(function(){
+    var header = document.querySelector('header.intro-header');
+    if(!header) return;
+    var start = '{{ page.header-crop-start | default: "" }}';
+    if(!start) return; // Only run when crop is requested
+    var bg = '{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}'.replace(/\/+/, '/');
+    var img = new Image();
+    img.onload = function(){
+        function parseVal(v, natural){
+            if (!v) return null;
+            v = (''+v).trim();
+            if(v.endsWith('%')){
+                var n = parseFloat(v.slice(0,-1));
+                if(isNaN(n)) return null;
+                return n/100 * natural;
+            }
+            if(v.endsWith('px')){
+                var npx = parseFloat(v.slice(0,-2));
+                return isNaN(npx) ? null : npx;
+            }
+            var n = parseFloat(v);
+            return isNaN(n) ? null : n; // assume px if unitless
+        }
+        function applyCrop(){
+            var H = header.offsetHeight;
+            var W = header.offsetWidth;
+            var s = Math.max(W / img.naturalWidth, H / img.naturalHeight);
+            var dispH = img.naturalHeight * s;
+            var startPx = parseVal(start, img.naturalHeight);
+            if(startPx == null) return;
+            var topOffset = - (startPx * s);
+            header.style.backgroundPosition = 'center ' + topOffset + 'px';
+        }
+        applyCrop();
+        window.addEventListener('resize', applyCrop);
+    };
+    img.src = bg;
+})();
+</script>
+{% endif %}
 {% endif %}
 
 {% if include.type == 'keynote' %}
