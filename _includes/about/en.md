@@ -17,12 +17,15 @@ In February 2025, as a generous gesture in response to ille_paris’ invitation 
 
 You can follow us on social media and RSVP to upcoming events via Mobilizon. We are always looking for warm and enthusiastic members to join our Executive Council. If you’re interested, feel free to introduce yourself by emailing us at *ille_paris@protonmail.com*.
 
-##### Team
+#### Team
 
-- Himadri Chhaya-Shailesh · Founding Member & Organizer
-- Mohini Simaria · General Secretary
-- Albin James · Head of the Executive Council
-- Aysis Koshi · Member of the Executive Council
-- Samruddhi Shembekar · Member of the Executive Council
-- Suman Sharma · Member of the Executive Council
-- Swati Modi · Member of the Executive Council
+- <a href="/himadri" target="_blank" rel="noopener noreferrer">Himadri Chhaya-Shailesh</a> · Founding Member & Organizer
+- <a href="/mohini" target="_blank" rel="noopener noreferrer">Mohini Simaria</a> · General Secretary
+- <a href="/albin" target="_blank" rel="noopener noreferrer">Albin James</a> · Head of the Executive Council
+- <a href="/aysis" target="_blank" rel="noopener noreferrer">Aysis Koshy</a> · Member of the Executive Council
+- <a href="/samruddhi" target="_blank" rel="noopener noreferrer">Samruddhi Shembekar</a> · Member gitof the Executive Council
+- <a href="/swati" target="_blank" rel="noopener noreferrer">Swati Modi</a> · Member of the Executive Council
+
+#### Alumni
+
+- <a href="/suman" target="_blank" rel="noopener noreferrer">Suman Sharma</a> · Former member of the Executive Council
