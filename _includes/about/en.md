@@ -1,21 +1,34 @@
-Indian Languages and Literature Enthusiasts in Paris (*ille_paris*) is a community of Indian expats and travelers in Paris that celebrates India, its languages, and its literature. We maintain a decentralized inventory of Indian books in Paris, which coordinates the collections from our members’ personal bookshelves. These books can be borrowed and exchanged during our signature silent reading events. We also organize book clubs, recitals, creative writing sessions, and conversations between Indian authors and readers. Soon, we will launch a multilingual magazine to publish the writings of the Indian diaspora in Indian languages.
+ILLE Paris is a community shaped by a shared affection for Indian
+literature and the many languages, histories, and lived experiences it
+carries. We meet across Paris to read together, exchange books, and
+create quiet, attentive spaces where stories from the subcontinent can
+be encountered without haste.
 
-Our participants come from across India, representing all age groups and walks of life. For example, at a typical reading event, you might find a mathematician reading about ancient Indian counting systems in Marathi, a software developer exploring the 1899–1900 famine in Gujarati, a data scientist immersed in Malayalam folktales, a biologist enjoying Hindi short stories, a linguist analyzing essays on Darjeeling’s urbanization in Bengali, and a mechanical engineer appreciating Urdu poetry — all seated at the same reading table. By the end of the session, they engage in lively discussions in English, the language common to all.
+At its core, ILLE Paris is less an institution and more a living
+network. Our vision is to cultivate a **decentralized collection of
+Indian books in Paris**, one that lives across homes, cafés, cultural
+spaces, and embassies rather than behind a single door. By encouraging
+members to bring, lend, host, and recommend books, we aim to make Indian
+literature more visible, accessible, and socially embedded in the city.
 
-ille_paris was founded in early 2024 by Himadri Chhaya-Shailesh, a PhD scholar, as a personal effort to remain connected with her mother tongue, Gujarati. The early gatherings at the French National Library faithfully followed a simple idea:
+Our reading interests span works set in and around India, books by
+Indian authors, and texts written in Indian languages. While
+English-language literature often forms the point of entry, we place
+particular value on regional languages and multilingual reading
+practices, reflecting the linguistic plurality of India itself.
 
-1. Show up at the reading room on time, find a seat, and introduce yourself to the group. 
-2. Bring your own book, borrow one from ille_paris’ collection, or pick one from the library — as long as it meets at least one of these criteria:
-    - The book is written in an Indian language.
-    - It is a translation from an Indian language.
-    - It is about India.
-    - It is authored by an Indian or someone of Indian origin.
-4. Read silently for a full hour.
-5. Share your impressions of the book and decide whether you'd like to continue reading it.
+ILLE Paris is sustained by its members. The organizing team curates
+events, maintains collaborations, and stewards the growing book
+collections, but the spirit of the group comes from the readers who show
+up, read alongside one another, and keep conversations alive. Whether you arrive with
+a well-worn book or simply an open mind, we are committed to warmly welcome anyone curious about Indian literature.
 
-In February 2025, as a generous gesture in response to ille_paris’ invitation to read with us, the Indian Ambassador to France welcomed us to the Indian Embassy’s library. Thanks to the enthusiastic support of the Embassy’s Press, Information & Culture Counsellor, ille_paris entered into a formal collaboration with the Embassy and now operates from its library.
+You can follow us on social media and RSVP to upcoming events via Mobilizon. We are always looking for warm and enthusiastic members to join our Executive Council. If you’re interested, then feel free to introduce yourself by emailing us at *ille_paris@protonmail.com*.
 
-You can follow us on social media and RSVP to upcoming events via Mobilizon. We are always looking for warm and enthusiastic members to join our Executive Council. If you’re interested, feel free to introduce yourself by emailing us at *ille_paris@protonmail.com*.
+### Collaborations
+
+- <a href="/indian-embassy" target="_blank" rel="noopener noreferrer">Indian Embassy in Paris</a>
+- <a href="/araku-cafe" target="_blank" rel="noopener noreferrer">Araku Café</a>
 
 #### Team
 

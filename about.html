@@ -9,6 +9,11 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
+<style>
+    /* Justify paragraph text on the About page (English section) */
+    .en.post-container p { text-align: justify; }
+</style>
+
 <!-- English Version -->
 <div class="en post-container">
     {% capture about_en %}{% include about/en.md %}{% endcapture %}

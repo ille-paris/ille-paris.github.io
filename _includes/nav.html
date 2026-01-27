@@ -23,13 +23,18 @@
                         <li>
                             <a href="{{ site.baseurl }}/">Home</a>
                         </li>
-                        {% for page in site.pages %}
-                        {% if page.title and page.hide-in-nav != true %}
                         <li>
-                            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                            <a href="{{ site.baseurl }}/about/">About</a>
                         </li>
-                        {% endif %}
-                        {% endfor %}
+                        <li>
+                            <a href="{{ site.baseurl }}/indian-embassy/">Indian Embassy</a>
+                        </li>
+                        <li>
+                            <a href="{{ site.baseurl }}/araku-cafe/">Araku Café</a>
+                        </li>
+                        <li>
+                            <a href="{{ site.baseurl }}/archive/">Archive</a>
+                        </li>
                         <li class="search-icon">
                             <a href="javascript:void(0)">
                                 <i class="fa fa-search"></i>
