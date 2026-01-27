@@ -2,7 +2,7 @@
 layout: page
 title: "Indian Embassy"
 description: "13 Rue Alfred Dehodencq, 75016, Paris"
-permalink: /indian-embassy
+permalink: /indian-embassy/
 ---
 
 <style>

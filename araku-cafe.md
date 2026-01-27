@@ -2,7 +2,7 @@
 layout: page
 title: "Araku Café"
 description: "8 Rue De Prague, 75012, Paris"
-permalink: /araku-cafe
+permalink: /araku-cafe/
 ---
 
 <style>
