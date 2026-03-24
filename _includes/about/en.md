@@ -17,7 +17,7 @@ English-language literature often forms the point of entry, we place
 particular value on regional languages and multilingual reading
 practices, reflecting the linguistic plurality of India itself.
 
-ILLE Paris is sustained by its members. The organizing team curates
+ILLE Paris is sustained by its members. The executive council curates
 events, maintains collaborations, and stewards the growing book
 collections, but the spirit of the group comes from the readers who show
 up, read alongside one another, and keep conversations alive. Whether you arrive with
@@ -30,15 +30,15 @@ You can follow us on social media and RSVP to upcoming events via Mobilizon. We 
 - <a href="/indian-embassy" target="_blank" rel="noopener noreferrer">Indian Embassy in Paris</a>
 - <a href="/araku-cafe" target="_blank" rel="noopener noreferrer">Araku Café</a>
 
-#### Team
+#### Executive Council
 
-- <a href="/himadri" target="_blank" rel="noopener noreferrer">Himadri Chhaya-Shailesh</a> · Founding Member & Organizer
+- <a href="/himadri" target="_blank" rel="noopener noreferrer">Himadri Chhaya-Shailesh</a> · President & Founder
 - <a href="/mohini" target="_blank" rel="noopener noreferrer">Mohini Simaria</a> · General Secretary
-- <a href="/albin" target="_blank" rel="noopener noreferrer">Albin James</a> · Head of the Executive Council
+- <a href="/samruddhi" target="_blank" rel="noopener noreferrer">Samruddhi Shembekar</a> · Head of the Executive Council
 - <a href="/aysis" target="_blank" rel="noopener noreferrer">Aysis Koshy</a> · Member of the Executive Council
-- <a href="/samruddhi" target="_blank" rel="noopener noreferrer">Samruddhi Shembekar</a> · Member gitof the Executive Council
 - <a href="/swati" target="_blank" rel="noopener noreferrer">Swati Modi</a> · Member of the Executive Council
 
 #### Alumni
 
 - <a href="/suman" target="_blank" rel="noopener noreferrer">Suman Sharma</a> · Former member of the Executive Council
+- <a href="/albin" target="_blank" rel="noopener noreferrer">Albin James</a> · Former head of the Executive Council
