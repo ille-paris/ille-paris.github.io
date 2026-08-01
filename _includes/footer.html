@@ -101,20 +101,34 @@
     var $searchInput = $('#search-input');
     var $body = $('body');
 
-    $searchOpen.on('click', function (e) {
+    function openSearch(e) {
       e.preventDefault();
-      $searchPage.toggleClass('search-active');
-      var prevClasses = $body.attr('class') || '';
-      setTimeout(function () { $body.addClass('no-scroll'); }, 400);
-      if ($searchPage.hasClass('search-active')) {
-        $searchClose.on('click', function (e) {
-          e.preventDefault();
-          $searchPage.removeClass('search-active');
-          $body.attr('class', prevClasses);
-        });
-        $searchInput.focus();
+      $searchPage.addClass('search-active');
+      $body.addClass('no-scroll');
+      $searchInput.focus();
+    }
+
+    function closeSearch(e) {
+      if (e) {
+        e.preventDefault();
       }
-    });
+      $searchPage.removeClass('search-active');
+      $body.removeClass('no-scroll');
+    }
+
+    $searchOpen.on('click', openSearch);
+    $searchClose.on('click', closeSearch);
+
+    document.addEventListener('keydown', function (e) {
+        if (
+        (e.key === 'Escape' || e.key === 'Esc') &&
+        $searchPage.hasClass('search-active')
+        ) {
+            e.preventDefault();
+            e.stopPropagation();
+            closeSearch();
+        }
+    }, true);
   });
 </script>
 

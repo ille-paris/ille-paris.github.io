@@ -84,14 +84,19 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
 }
 
 .ille-nav-links { display: flex; gap: 32px; }
-.ille-nav-links a {
+.ille-nav-links a,
+.ille-nav-links .ille-nav-search {
   font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-soft);
   text-decoration: none;
 }
-.ille-nav-links a:hover { color: var(--teal); text-decoration: none; }
+.ille-nav-links a:hover,
+.ille-nav-links .ille-nav-search:hover {
+  color: var(--teal);
+  text-decoration: none;
+}
 
 .ille-nav-right { display: flex; align-items: center; gap: 16px; }
 
@@ -131,6 +136,18 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
 .ille-nav-burger.open span:nth-child(2) { opacity: 0; }
 .ille-nav-burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
+.ille-nav-search {
+  font-family: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.ille-nav-search:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
+
 .ille-nav-mobile {
   display: none;
   flex-direction: column;
@@ -143,14 +160,19 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   z-index: 999;
 }
 .ille-nav-mobile.open { display: flex; }
-.ille-nav-mobile a {
+.ille-nav-mobile a,
+.ille-nav-mobile .ille-nav-search {
   font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-soft);
   text-decoration: none;
+  text-align: left;
 }
-.ille-nav-mobile a:hover { color: var(--teal); }
+.ille-nav-mobile a:hover,
+.ille-nav-mobile .ille-nav-search:hover {
+  color: var(--teal);
+}
 .ille-nav-mobile .ille-nav-cta-mobile {
   background: var(--teal);
   color: var(--white);
@@ -180,6 +202,17 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   cursor: pointer;
   font-size: 20px;
   color: var(--ink-soft);
+}
+.search-page .search-icon-close {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 8px;
+}
+.search-page .search-icon-close:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
 }
 .search-page input#search-input {
   font-family: 'Cormorant Garamond', serif;
