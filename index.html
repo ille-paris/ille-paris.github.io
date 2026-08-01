@@ -1,46 +1,184 @@
 ---
-layout: page
-description: "Home Page"
+layout: default
+description: "Indian Languages and Literature Enthusiasts in Paris"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% endif %}
+<!-- Hero -->
+<section class="ille-hero">
+  <div class="ille-hero-main">
+    <p class="ille-eyebrow">Indian Literature · Languages · Paris</p>
+    <h1 class="ille-hero-h1">Reading<br><em>India</em><br>in <strong>Paris.</strong></h1>
+    <p class="ille-hero-sub">A community shaped by a shared affection for Indian literature and the many languages, histories, and lived experiences it carries. We meet across Paris to read, exchange books, and keep stories alive.</p>
+    <div class="ille-hero-btns">
+      <a class="ille-btn-primary" href="https://mobilizon.fr/@ille_paris/events" target="_blank" rel="noopener">Upcoming events</a>
+      <a class="ille-btn-secondary" href="{{ site.baseurl }}/about/">About us</a>
+    </div>
+  </div>
+  <div class="ille-hero-panel">
+    <div class="ille-panel-top">
+      <div>
+        <p class="ille-panel-label">A living library across Paris</p>
+        <p class="ille-panel-quote">"Not behind a single door — but across homes, cafés, cultural spaces, and embassies."</p>
+      </div>
+      <div>
+        <p class="ille-panel-label" style="margin-bottom:12px">Languages we read in</p>
+        <div class="ille-panel-langs">
+          <span class="ille-lang-tag featured">Hindi</span>
+          <span class="ille-lang-tag">Tamil</span>
+          <span class="ille-lang-tag">Bengali</span>
+          <span class="ille-lang-tag featured">Urdu</span>
+          <span class="ille-lang-tag">Malayalam</span>
+          <span class="ille-lang-tag">Kannada</span>
+          <span class="ille-lang-tag">Marathi</span>
+          <span class="ille-lang-tag">Telugu</span>
         </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+      </div>
+    </div>
+    <div class="ille-panel-bottom">
+      <div class="ille-stat">
+        <div class="ille-stat-num">40+</div>
+        <div class="ille-stat-label">Events</div>
+      </div>
+      <div class="ille-stat-divider"></div>
+      <div class="ille-stat">
+        <div class="ille-stat-num">600+</div>
+        <div class="ille-stat-label">Members</div>
+      </div>
+      <div class="ille-stat-divider"></div>
+      <div class="ille-stat">
+        <div class="ille-stat-num">20+</div>
+        <div class="ille-stat-label">Languages</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<!-- Events -->
+<section class="ille-events">
+  <div class="ille-sec-head">
+    <h2 class="ille-sec-title">Upcoming events</h2>
+    <a class="ille-sec-link" href="https://mobilizon.fr/@ille_paris/events" target="_blank" rel="noopener">All events on Mobilizon →</a>
+  </div>
+  <div class="ille-event-cards">
+    <div class="ille-ecard">
+      <div class="ille-ecard-top">
+        <span class="ille-ecard-date">See Mobilizon for dates</span>
+        <span class="ille-ecard-dot"></span>
+      </div>
+      <p class="ille-ecard-title">Reading circles</p>
+      <p class="ille-ecard-where">Araku Café & cultural spaces · Paris</p>
+      <a class="ille-ecard-rsvp" href="https://mobilizon.fr/@ille_paris/events" target="_blank" rel="noopener">RSVP via Mobilizon →</a>
+    </div>
+    <div class="ille-ecard">
+      <div class="ille-ecard-top">
+        <span class="ille-ecard-date">See Mobilizon for dates</span>
+        <span class="ille-ecard-dot" style="background:var(--plum-light)"></span>
+      </div>
+      <p class="ille-ecard-title">Language evenings</p>
+      <p class="ille-ecard-where">Maison de l'Inde & partner venues · Paris</p>
+      <a class="ille-ecard-rsvp" href="https://mobilizon.fr/@ille_paris/events" target="_blank" rel="noopener">RSVP via Mobilizon →</a>
+    </div>
+    <div class="ille-ecard">
+      <div class="ille-ecard-top">
+        <span class="ille-ecard-date">See Mobilizon for dates</span>
+        <span class="ille-ecard-dot" style="background:var(--teal-light)"></span>
+      </div>
+      <p class="ille-ecard-title">Book swaps & socials</p>
+      <p class="ille-ecard-where">Indian Embassy & across Paris</p>
+      <a class="ille-ecard-rsvp" href="https://mobilizon.fr/@ille_paris/events" target="_blank" rel="noopener">RSVP via Mobilizon →</a>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="ille-about">
+  <div class="ille-about-left">
+    <p class="ille-about-tag">About ILLE Paris</p>
+    <h2 class="ille-about-h2">Less an institution,<br>more a <em>living network.</em></h2>
+    <div class="ille-about-body">
+      <p>ILLE Paris is a community shaped by a shared affection for Indian literature and the many languages, histories, and lived experiences it carries.</p>
+      <p>Our vision is to cultivate a decentralised collection of Indian books across Paris — one that lives in homes, cafés, cultural spaces, and embassies rather than behind a single door.</p>
+      <p>Whether you arrive with a well-worn book or simply an open mind, we warmly welcome anyone curious about Indian literature.</p>
+    </div>
+  </div>
+  <div class="ille-about-right">
+    <div class="ille-pillar">
+      <div class="ille-pillar-icon pi-teal">I</div>
+      <div>
+        <p class="ille-pillar-title">Read together</p>
+        <p class="ille-pillar-desc">Quiet, attentive reading sessions across the city — without haste.</p>
+      </div>
+    </div>
+    <div class="ille-pillar">
+      <div class="ille-pillar-icon pi-gold">II</div>
+      <div>
+        <p class="ille-pillar-title">Exchange books</p>
+        <p class="ille-pillar-desc">A decentralised, member-carried library across Paris.</p>
+      </div>
+    </div>
+    <div class="ille-pillar">
+      <div class="ille-pillar-icon pi-plum">III</div>
+      <div>
+        <p class="ille-pillar-title">All languages welcome</p>
+        <p class="ille-pillar-desc">Regional languages and multilingual reading are at our heart.</p>
+      </div>
+    </div>
+    <div class="ille-pillar">
+      <div class="ille-pillar-icon pi-teal-dark">IV</div>
+      <div>
+        <p class="ille-pillar-title">Sustained by its members</p>
+        <p class="ille-pillar-desc">The spirit comes from readers who show up and keep conversations alive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Executive Council -->
+<section class="ille-council">
+  <div class="ille-sec-head">
+    <h2 class="ille-sec-title">Executive council</h2>
+  </div>
+  <div class="ille-council-grid">
+    <div class="ille-ccard">
+      <div class="ille-cavatar ca-teal">HC</div>
+      <p class="ille-cname">Himadri Chhaya-Shailesh</p>
+      <p class="ille-crole">President &amp; Founder</p>
+    </div>
+    <div class="ille-ccard">
+      <div class="ille-cavatar ca-plum">MS</div>
+      <p class="ille-cname">Mohini Simaria</p>
+      <p class="ille-crole">General Secretary</p>
+    </div>
+    <div class="ille-ccard">
+      <div class="ille-cavatar ca-dark">SS</div>
+      <p class="ille-cname">Samruddhi Shembekar</p>
+      <p class="ille-crole">Head of the Executive Council</p>
+    </div>
+    <div class="ille-ccard">
+      <div class="ille-cavatar ca-gold">AK</div>
+      <p class="ille-cname">Aysis Koshy</p>
+      <p class="ille-crole">Member of the Executive Council</p>
+    </div>
+    <div class="ille-ccard">
+      <div class="ille-cavatar ca-plum2">SM</div>
+      <p class="ille-cname">Swati Modi</p>
+      <p class="ille-crole">Member of the Executive Council</p>
+    </div>
+  </div>
+</section>
+
+<!-- Collaborations + Join -->
+<div class="ille-bottom">
+  <div class="ille-collab">
+    <p class="ille-collab-label">Collaborations</p>
+    <div class="ille-ctags">
+      <span class="ille-ctag">Indian Embassy in Paris</span>
+      <span class="ille-ctag">Araku Café</span>
+    </div>
+  </div>
+  <div class="ille-join">
+    <h3 class="ille-join-title">Join the executive council</h3>
+    <p class="ille-join-body">We are always looking for warm, enthusiastic members. Introduce yourself and we'll be in touch.</p>
+    <a class="ille-join-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </div>
+</div>
