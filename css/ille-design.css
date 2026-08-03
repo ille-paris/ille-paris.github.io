@@ -351,6 +351,22 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   line-height: 1.55;
   margin: 0 0 24px;
 }
+.ille-panel-note {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.5;
+  margin: 8px 0 0;
+}
+.ille-panel-note a {
+  color: var(--gold-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.ille-panel-note a:hover {
+  color: var(--gold-pale);
+}
 .ille-panel-langs { display: flex; flex-wrap: wrap; gap: 7px; margin-top: auto; }
 .ille-lang-tag {
   font-size: 11px;
