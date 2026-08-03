@@ -44,6 +44,8 @@ deeper engagement beyond single texts. These collections are available
 to browse during events and café hours, allowing literature to remain
 present even outside formal gatherings.
 
+Our latest addition is the **Indian Queer Literature** collection, introduced during Pride Month with seven new LGBTQ+ titles. By bringing together stories that explore queer lives, identities, and experiences across India, the collection invites readers to encounter perspectives that remain underrepresented in many literary spaces and to engage with Indian literature in all its diversity.
+
 Through our collaboration with Araku Café, we continue to explore how
 literary communities can thrive in shared public spaces, where a book
 can be picked up spontaneously, a conversation can begin over a cup of
