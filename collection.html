@@ -1,0 +1,68 @@
+---
+layout: default
+title: Collection
+description: "Browse books available in ILLE Paris's decentralized collection"
+permalink: /collection/
+---
+
+<link rel="stylesheet" href="{{ '/css/collection.css' | prepend: site.baseurl }}">
+
+<div class="ille-page-header">
+  <div class="ille-page-header-inner">
+    <p class="ille-page-eyebrow">ILLE Paris</p>
+    <h1 class="ille-page-title">Collection</h1>
+    <p class="ille-page-desc">{{ page.description }}</p>
+  </div>
+</div>
+
+<section
+  class="ille-collection"
+  data-sheet-id="1DFjJwqLdh5qPEN9K7BBaRiENiLeN-uwBQNLQncLz-MA"
+  data-sheet-limit="50">
+  <div class="ille-collection-intro">
+    <p>
+      Our books are distributed across homes, cafés, and cultural spaces in Paris.
+      Search the combined catalogue below to discover books listed across all its tabs.
+    </p>
+  </div>
+
+  <div class="ille-collection-toolbar" aria-label="Collection filters">
+    <label class="ille-collection-control" for="collectionSearch">
+      <span>Search</span>
+      <input
+        id="collectionSearch"
+        type="search"
+        placeholder="Title, author, language, or collection"
+        autocomplete="off">
+    </label>
+
+    <label class="ille-collection-control" for="collectionLanguage">
+      <span>Language</span>
+      <select id="collectionLanguage">
+        <option value="">All languages</option>
+      </select>
+    </label>
+  </div>
+
+  <p class="ille-collection-status" id="collectionStatus" aria-live="polite">
+    Loading the collection…
+  </p>
+
+  <div class="ille-collection-grid" id="collectionGrid"></div>
+
+  <noscript>
+    <p class="ille-collection-empty">
+      JavaScript is required to display the catalogue on this page.
+    </p>
+  </noscript>
+
+  <p class="ille-collection-source">
+    The catalogue is maintained in a
+    <a
+      href="https://docs.google.com/spreadsheets/d/1DFjJwqLdh5qPEN9K7BBaRiENiLeN-uwBQNLQncLz-MA/edit"
+      target="_blank"
+      rel="noopener noreferrer">shared spreadsheet</a>.
+  </p>
+</section>
+
+<script src="{{ '/js/collection.js' | prepend: site.baseurl }}"></script>
