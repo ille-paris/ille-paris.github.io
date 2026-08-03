@@ -11,7 +11,7 @@ hide-in-nav: true
 			 style="width:320px; height:320px; border-radius:50%; background-image:url('/img/team/himadri.jpg'); background-size:cover; background-position:center; box-shadow:0 2px 12px rgba(0,0,0,0.12);"></div>
 	<div style="flex:1; min-width:260px;">
 		<p>
-        Hi, I’m Himadri, the daughter of a writer-librarian mother, who grew up in a house where Gujarati literature outnumbered furniture! Watching my mother wrestle lovingly with sentences and ambitious prose, I was inevitably pulled into the orbit of books.
+        Hi, I’m Himadri, the daughter of a writer-librarian mother, who grew up in a house where Gujarati literature outnumbered furniture! Watching my mother write simply for the joy of creating stories and bringing ideas to life, I was naturally drawn into the world of literature.
         </p>
         <p>
         Living in France, a country that takes its language very seriously, nudged me into rekindling my relationship with my mother tongue. Encounters with fellow literati from the Indian diaspora then did the rest, sparking a growing curiosity about India’s many other languages. Somewhere along the way, while attempting to learn French as my fifth language, maintaining a respectable command of Gujarati, Hindi, and a very modest amount of Sanskrit turned into a personal (and ongoing) linguistic expedition.
