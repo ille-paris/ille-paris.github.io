@@ -471,6 +471,13 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   font-weight: 300;
   margin: 0;
 }
+.ille-ecard-desc {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--ink-mid);
+  line-height: 1.7;
+  margin: 4px 0 0;
+}
 .ille-ecard-rsvp {
   margin-top: auto;
   font-size: 11px;
