@@ -32,11 +32,12 @@ You can follow us on social media and RSVP to upcoming events via Mobilizon. We 
 
 #### Executive Council
 
-- <a href="/himadri" target="_blank" rel="noopener noreferrer">Himadri Chhaya-Shailesh</a> · President & Founder
-- <a href="/mohini" target="_blank" rel="noopener noreferrer">Mohini Simaria</a> · General Secretary
-- <a href="/samruddhi" target="_blank" rel="noopener noreferrer">Samruddhi Shembekar</a> · Head of the Executive Council
-- <a href="/aysis" target="_blank" rel="noopener noreferrer">Aysis Koshy</a> · Member of the Executive Council
-- <a href="/swati" target="_blank" rel="noopener noreferrer">Swati Modi</a> · Member of the Executive Council
+- <a href="/himadri" target="_blank" rel="noopener noreferrer">Himadri Chhaya-Shailesh</a> · Founding member
+- <a href="/mohini" target="_blank" rel="noopener noreferrer">Mohini Simaria</a> · Member
+- <a href="/samruddhi" target="_blank" rel="noopener noreferrer">Samruddhi Shembekar</a> · Member
+- <a href="/aysis" target="_blank" rel="noopener noreferrer">Aysis Koshy</a> · Member
+- <a href="/swati" target="_blank" rel="noopener noreferrer">Swati Modi</a> · Member
+- <a href="/sanhita" target="_blank" rel="noopener noreferrer">Sanhita Saha</a> · Member
 
 #### Alumni
 

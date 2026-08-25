@@ -2,7 +2,7 @@
 layout: page
 title: "Himadri Chhaya-Shailesh"
 permalink: /himadri
-description: "ILLE Founding Member & Organizer"
+description: "Founder & Executive Council Member of ILLE Paris"
 hide-in-nav: true
 ---
 

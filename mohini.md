@@ -2,7 +2,7 @@
 layout: page
 title: "Mohini Simaria"
 permalink: /mohini
-description: "ILLE General Secretary"
+description: "ILLE Paris Executive Council Member"
 hide-in-nav: true
 ---
 

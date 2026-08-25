@@ -2,7 +2,7 @@
 layout: page
 title: "Aysis Koshy"
 permalink: /aysis
-description: "Member of the Executive Council"
+description: "ILLE Paris Executive Council Member"
 hide-in-nav: true
 ---
 

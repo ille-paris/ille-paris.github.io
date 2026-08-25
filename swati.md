@@ -2,7 +2,7 @@
 layout: page
 title: "Swati Modi"
 permalink: /swati
-description: "Member of the Executive Council"
+description: "ILLE Paris Executive Council Member"
 hide-in-nav: true
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: "Sanhita Saha"
 permalink: /sanhita
-description: "ILLE Member of the Executive Council"
+description: "ILLE Paris Executive Council Member"
 hide-in-nav: true
 ---
 
