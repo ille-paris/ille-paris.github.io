@@ -595,7 +595,7 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
 }
 .ille-council-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 14px;
   margin-top: 32px;
 }
@@ -631,6 +631,15 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   object-position: center;
   display: block;
   flex-shrink: 0;
+}
+.ille-cavatar-initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--plum);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
 }
 .ille-cname {
   font-size: 13px;
