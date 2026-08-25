@@ -23,7 +23,7 @@ collections, but the spirit of the group comes from the readers who show
 up, read alongside one another, and keep conversations alive. Whether you arrive with
 a well-worn book or simply an open mind, we are committed to warmly welcome anyone curious about Indian literature.
 
-You can follow us on social media and RSVP to upcoming events via Mobilizon. We are always looking for warm and enthusiastic members to join our Executive Council. If you’re interested, then feel free to introduce yourself by emailing us at *ille_paris@protonmail.com*.
+You can follow us on social media and RSVP to upcoming events via Mobilizon. We are always looking for warm and enthusiastic members to join our Executive Council. If you’re interested, then feel free to introduce yourself by emailing us at *{{ site.email }}*.
 
 ### Collaborations
 
