@@ -22,3 +22,13 @@ hide-in-nav: true
 		</p>
 	</div>
 </div>
+
+## Current responsibilities
+
+- ID Verification Chair
+- Web Chair
+- Event Chair for [ille_paris @ Swami Vivekanand Cultural Centre](https://mobilizon.fr/events/8691720d-a3c7-4f93-8167-d5f473c524f4) [September 20, 2026]
+
+## Past responsibilities
+
+- Served as President under ILLE Paris' former hierarchical governance structure until the role was retired in August 2025, as described in the [flat hierarchy announcement](/2026/08/25/flat-hierarchy/).

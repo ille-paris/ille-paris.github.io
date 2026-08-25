@@ -16,3 +16,11 @@ hide-in-nav: true
     </p>
   </div>
 </div>
+
+## Current responsibilities
+
+- Currently holds no designated operational responsibilities.
+
+## Past responsibilities
+
+- Served as the General Secretary under ILLE Paris' former hierarchical governance structure until the role was retired in August 2025, as described in the [flat hierarchy announcement](/2026/08/25/flat-hierarchy/).

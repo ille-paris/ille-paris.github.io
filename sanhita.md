@@ -15,3 +15,7 @@ hide-in-nav: true
     </p>
   </div>
 </div>
+
+## Current responsibilities
+
+- Currently holds no designated operational responsibilities.
