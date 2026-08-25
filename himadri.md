@@ -23,6 +23,8 @@ hide-in-nav: true
 	</div>
 </div>
 
+<i class="fa-solid fa-envelope" aria-hidden="true"></i> Email: [himadri_ille_paris@protonmail.com](mailto:himadri_ille_paris@protonmail.com)
+
 ## Current responsibilities
 
 - ID Verification Chair

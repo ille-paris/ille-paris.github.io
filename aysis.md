@@ -16,6 +16,8 @@ hide-in-nav: true
   </div>
 </div>
 
+<i class="fa-solid fa-envelope" aria-hidden="true"></i> Email: [aysis_ille_paris@protonmail.com](mailto:aysis_ille_paris@protonmail.com)
+
 ## Current responsibilities
 
 - Social Media Chair

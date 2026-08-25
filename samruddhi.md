@@ -16,6 +16,8 @@ hide-in-nav: true
   </div>
 </div>
 
+<i class="fa-solid fa-envelope" aria-hidden="true"></i> Email: [samruddhi_ille_paris@protonmail.com](mailto:samruddhi_ille_paris@protonmail.com)
+
 ## Current responsibilities
 
 - Currently holds no designated operational responsibilities.

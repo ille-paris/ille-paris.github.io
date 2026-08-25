@@ -612,6 +612,18 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   text-decoration: none;
   transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
 }
+.ille-cprofile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+.ille-cprofile:hover {
+  color: inherit;
+  text-decoration: none;
+}
 .ille-ccard:hover {
   border-color: var(--teal-light);
   box-shadow: 0 6px 18px rgba(17, 25, 24, 0.08);
@@ -654,6 +666,21 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
   color: var(--ink-soft);
   line-height: 1.4;
   margin: 0;
+}
+.ille-cemail {
+  font-size: 10px;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  margin: 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.ille-cemail i { font-size: 13px; }
+.ille-cemail:hover {
+  color: var(--teal);
+  text-decoration: none;
 }
 
 /* ===================================================
