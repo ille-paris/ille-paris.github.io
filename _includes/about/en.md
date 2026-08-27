@@ -36,10 +36,10 @@ You can follow us on social media and RSVP to upcoming events via Mobilizon. We 
 - <a href="/mohini" target="_blank" rel="noopener noreferrer">Mohini Simaria</a> · Member
 - <a href="/samruddhi" target="_blank" rel="noopener noreferrer">Samruddhi Shembekar</a> · Member
 - <a href="/aysis" target="_blank" rel="noopener noreferrer">Aysis Koshy</a> · Member
-- <a href="/swati" target="_blank" rel="noopener noreferrer">Swati Modi</a> · Member
 - <a href="/sanhita" target="_blank" rel="noopener noreferrer">Sanhita Saha</a> · Member
 
 #### Alumni
 
+- <a href="/swati" target="_blank" rel="noopener noreferrer">Swati Modi</a> · Former member of the Executive Council
 - <a href="/suman" target="_blank" rel="noopener noreferrer">Suman Sharma</a> · Former member of the Executive Council
 - <a href="/albin" target="_blank" rel="noopener noreferrer">Albin James</a> · Former head of the Executive Council

@@ -595,7 +595,7 @@ a:hover { color: var(--teal-dark); text-decoration: none; }
 }
 .ille-council-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 14px;
   margin-top: 32px;
 }
