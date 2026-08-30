@@ -4,10 +4,16 @@
     {% if site.mastodon_username %}
     <a href="https://mastodon.social/@{{ site.mastodon_username }}" target="_blank" rel="noopener me">Mastodon</a>
     {% endif %}
+    {% if site.twitter_username %}
+    <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener me">X.com</a>
+    {% endif %}
     {% if site.instagram_username %}
     <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">Instagram</a>
     {% endif %}
-    <a href="mailto:{{ site.email }}">Contact</a>
+    {% if site.facebook_page %}
+    <a href="https://www.facebook.com/profile.php?id={{ site.facebook_page }}" target="_blank" rel="noopener me">Facebook</a>
+    {% endif %}
+    <a href="mailto:{{ site.email }}">Email</a>
   </div>
   <span class="ille-footer-copy">&copy; {{ site.time | date: '%Y' }} ILLE Paris</span>
 </footer>
