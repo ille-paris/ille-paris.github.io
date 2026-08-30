@@ -4,7 +4,7 @@ title:      "Notice: Executive Council"
 subtitle:   "Adoption of a flat hierarchy and transparent, encrypted mailing-list-based internal governance"
 author: "Himadri CS"
 catalog: true
-header-img: "img/in-post/review-2025/image13.png"
+header-img: "img/ille_paris_home-bg.jpg"
 header-mask: 0.4
 header-position: top
 header-crop-start: '20%'
